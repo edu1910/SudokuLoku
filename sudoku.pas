@@ -335,8 +335,6 @@ implementation
 
             tries := tries+1;
         end;
-
-        writeln(celulas_escondidas);
     end;
 
     procedure inicia_sudoku(var jogo, solucao : sudoku_grade);
